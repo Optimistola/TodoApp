@@ -1,0 +1,146 @@
+header{
+   position:fixed;
+   top:0;
+   left:0;
+   width:100%;
+   z-index: 3;
+   padding:8px;
+   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.2);
+   background-color: white;
+ }
+ .todo-container{
+   margin-top:100px;
+ }
+ .dark header{
+   background-color: hsl(218, 23%, 16%);
+ }
+ nav{
+   display:flex;
+   justify-content: space-around;
+ }
+ .dark{
+   background-color:  hsl(218, 23%, 16%);
+   color:white;
+ }
+
+ label{
+   margin-bottom: 8px;
+ }
+ .headerIcons{
+   display:flex;
+   justify-content: space-between;
+ }
+.navBranding, .modeToggle{
+  font-size:15px;
+}
+.darkIcon{
+  font-size: 13px;
+}
+ input{
+padding: 10px;
+   outline: none;
+   border:1px solid black;
+   border-radius: 5px;
+   margin-bottom:20px;
+ }
+   .input{
+ margin-left: 20px;
+ }
+ input[type="datetime-local"]{
+   width:55%;
+ }
+ .btnlg{
+   padding:10px;
+   background-color: green;
+   border:none;
+   border-radius: 5px;
+   color:white;
+   outline:none;
+   margin-left: 20px;
+ }
+ .btnlg:hover{
+   border:1px solid darkgreen;
+ }
+ .todo-container{
+   margin:30px;
+   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+ }
+ 
+ #parent, #done, form{
+   width:300px;
+   margin-left:20px;
+   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.2);
+   border-radius:5px;
+   padding:5px;
+   margin-bottom: 20px;
+ }
+ .dark #parent, .dark #done, .dark form{
+   background-color:hsl(217, 19%, 24%);
+ }
+ .done-div, .doing-div{
+   display:flex;
+   justify-content: space-around;
+   margin:px;
+   
+ }
+ h3{
+   position:relative;
+   top:10px;
+   text-align: center;
+ }
+ #clock{
+ text-align: center;
+ margin:8px;
+ }
+ .btn{
+   padding:5px;
+   background-color: dodgerblue;
+   border:none;
+   border-radius:5px;
+   outline:none;
+   position:relative;
+   width:30px;
+   color:white;
+   margin-bottom:20px;
+ }
+  .btncancle{
+   padding:5px;
+   background-color: red;
+   border:none;
+   border-radius:5px;
+   outline:none;
+   position:relative;
+   width:30px;
+   color:white;
+   margin-bottom:20px;
+ }
+ .doing{
+   color:gold;
+ }
+ .done{
+   color:green;
+ }
+ @media only screen and (min-width:760px){
+body{
+  margin-left:%;
+  
+}
+  header{
+  padding:20px;
+  margin-bottom: 50px;
+}
+.container {
+  position: absolute;
+  top:150px;
+  display:flex;
+}
+form{
+  width:300px;
+   margin-left:20px;
+   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.2);
+   border-radius:5px;
+   padding:5px;
+   margin-bottom: 20px;
+   height:200px;
+}
+ }
